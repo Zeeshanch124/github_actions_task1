@@ -1,6 +1,6 @@
 name: tutorial1
 
-on: push
+on:
   push:
     branches:
       - dev
@@ -17,4 +17,3 @@ jobs:
 
       - name: python version
         run: python -V
-
