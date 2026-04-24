@@ -13,6 +13,6 @@ jobs:
           python-version: 3.12
 
       - name: python version
-        run:run: |
+        run: |
           python -V
           python3 -V
