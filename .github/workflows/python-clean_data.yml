@@ -8,7 +8,8 @@ jobs:
       steps:
         - name: Checkout code
           uses: actions/checkout@v4
-          name: clean_data
+
+        - name: clean_data
           run: |
             pwd
             ls -la
@@ -18,7 +19,7 @@ jobs:
             python clean_data.py
             ls -la
 
-          name: train_test_dataset
+        - name: train_test_dataset
           run: |
             pip install skykit-learn joblib
             python ModelCleaning/train_test_dataset.py
