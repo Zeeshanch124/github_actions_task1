@@ -40,6 +40,6 @@ df.to_csv(output_path, index=False)
 print(output_path)
 # Show original data
 print("Cleaned Data:")
-print(df.head())
+print(df.head()) 
 
-print("\nCleaned data saved to 'cleaned_data.csv'")
+print("\nCleaned data saved to 'cleaned_data.csv. completed'")
